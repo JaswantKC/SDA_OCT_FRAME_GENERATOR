@@ -150,15 +150,17 @@ Simulation prints frame completion events and active frame types for verificatio
 ---
 
 ## 9. Repository Structure
+
+```
 OCT-Frame-Constructor/
 ├── rtl/
-│ ├── OCT.v
-│ ├── crc16_header.v
-│ ├── crc32_payload.v
+│   ├── OCT.v
+│   ├── crc16_header.v
+│   ├── crc32_payload.v
 ├── tb/
-│ ├── OCT_idle_tb.v
-├── README.md
-
+│   ├── OCT_idle_tb.v
+└── README.md
+```
 
 ---
 
